@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="250bedc4-940d-45fb-a258-5bfd3880f581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b8f9523c-1b15-4730-86b4-c5af2b1db7ce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b8f9523c-1b15-4730-86b4-c5af2b1db7ce/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/ReggieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/MyMetaObjecthandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/dto/OrdersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhl/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/project.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/ReggieApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/BaseContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/JacksonObjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/MyMetaObjecthandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/common/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/AddressBookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/DishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/SetmealController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/ShoppingCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/dto/DishDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/dto/OrdersDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/dto/SetmealDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/AddressBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/DishFlavor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/Setmeal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/SetmealDish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/AddressBookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/DishFlavorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/DishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/SetmealDishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/SetmealMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/ShoppingCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/AddressBookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/DishFlavorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/DishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/OrderDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/SetmealDishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/SetmealService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/ShoppingCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/AddressBookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/SetmealServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/utils/SMSUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhl/reggie/utils/ValidateCodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/cartData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/vant.min.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="reggie@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="reggie@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="reggie@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="reggie: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="reggie@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="reggie: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="dish: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2JOYOxtnalMLAyu14SPBiNPJCr4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hhl/reggie/dto" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/hhl/reggie/dto" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hhl/reggie/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hhl/reggie/utils" />
+      <recent name="$PROJECT_DIR$/src/main/resources/backend/page/demo" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hhl/reggie/common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhl.reggie.test" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhl.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/backend/api/login.js" working-dir="$PROJECT_DIR$/src/main/resources/backend/api">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhl.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Node.js.login.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="250bedc4-940d-45fb-a258-5bfd3880f581" name="Default Changelist" comment="" />
+      <created>1671950567967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671950567967</updated>
+      <workItem from="1671950582506" duration="2973000" />
+      <workItem from="1672043048439" duration="44000" />
+      <workItem from="1672043123906" duration="213585000" />
+      <workItem from="1673257435016" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="331" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672067224422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672067224422" />
+    <state x="652" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1673171402927">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672730612166" />
+    <state x="652" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673171402927" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1672760880129" />
+    <state x="489" y="313" width="462" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1672997031068">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="313" width="462" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1672997031068" />
+    <state width="465" height="466" key="DebuggerActiveHint" timestamp="1672974509074">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="465" height="466" key="DebuggerActiveHint/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672246077982" />
+    <state width="465" height="466" key="DebuggerActiveHint/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1672974509074" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1672507422034">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672507422034" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom" timestamp="1673257380190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136618" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811135" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380190" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673099206708" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625598" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726539" />
+    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1672759180714" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center" timestamp="1673257380190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136616" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811134" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380190" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1673099206708" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625595" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726538" />
+    <state width="1396" height="303" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1672759180713" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left" timestamp="1673257380190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136615" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811133" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380190" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1673099206706" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625595" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726538" />
+    <state width="1396" height="303" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1672759180712" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right" timestamp="1673257380190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136616" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811134" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380190" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1673099206708" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625597" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726539" />
+    <state width="1396" height="303" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1672759180713" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom" timestamp="1673257380192">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936160696" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811049" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380192" />
+    <state width="1396" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673099206710" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625504" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673252093542" />
+    <state width="1396" height="303" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1672842831000" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center" timestamp="1673257380191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936160695" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811048" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380191" />
+    <state width="1396" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1673099206709" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625503" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673252093541" />
+    <state width="1396" height="303" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1672842830999" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left" timestamp="1673257380191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936160694" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811047" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380191" />
+    <state width="1396" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1673099206709" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625503" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673252093541" />
+    <state width="1396" height="303" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1672842830999" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right" timestamp="1673257380191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936160695" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811048" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380191" />
+    <state width="1396" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1673099206709" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625504" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673252093541" />
+    <state width="1396" height="303" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1672842831000" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom" timestamp="1673257380156">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136472" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811051" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380156" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673099205978" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625506" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726439" />
+    <state width="1396" height="303" key="GridCell.Tab.2.bottom/0.25.1440.875@0.25.1440.875" timestamp="1672759180628" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center" timestamp="1673257380155">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136471" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811050" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380155" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1673099205977" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625505" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726438" />
+    <state width="1396" height="303" key="GridCell.Tab.2.center/0.25.1440.875@0.25.1440.875" timestamp="1672759180627" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left" timestamp="1673257380154">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136471" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811049" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380154" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1673099205976" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625505" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726438" />
+    <state width="1396" height="303" key="GridCell.Tab.2.left/0.25.1440.875@0.25.1440.875" timestamp="1672759180627" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right" timestamp="1673257380156">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672936136472" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-1192.283.1192.868@0.0.1440.900" timestamp="1672970811051" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257380156" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1673099205978" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.25.1440.875/-1192.25.1192.868@0.25.1440.875" timestamp="1672928625505" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.25.1440.875/-893.25.893.1167@0.25.1440.875" timestamp="1673187726439" />
+    <state width="1396" height="303" key="GridCell.Tab.2.right/0.25.1440.875@0.25.1440.875" timestamp="1672759180628" />
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1672806211099">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1672806211099" />
+    <state x="229" y="57" key="SettingsEditor" timestamp="1673257352779">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="57" key="SettingsEditor/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672043091275" />
+    <state x="229" y="57" key="SettingsEditor/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257352779" />
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1673257437373">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672043877066" />
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673257437373" />
+    <state x="345" y="310" width="990" height="486" key="find.popup" timestamp="1673080156791">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="207" width="674" height="486" key="find.popup/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672731504596" />
+    <state x="345" y="310" width="990" height="486" key="find.popup/0.0.1440.900/-893.25.893.1167@0.0.1440.900" timestamp="1673080156791" />
+    <state x="123" y="144" key="new project wizard" timestamp="1672023440885">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="123" y="144" key="new project wizard/0.0.1440.900/-1192.25.1192.868@0.0.1440.900" timestamp="1672023440885" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1672678276222">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1672678276222" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/UserController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/AddressBookController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/CategoryServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/CategoryServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/OrderServiceImpl.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/controller/OrderController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/OrderServiceImpl.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hhl/reggie/service/impl/OrderServiceImpl.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/front/page/login.html</url>
+          <line>67</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
